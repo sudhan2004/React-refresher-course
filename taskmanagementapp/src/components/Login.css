@@ -1,0 +1,123 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-container {
+  height: 100vh;
+}
+
+.login-box {
+  padding: 77px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.314);
+  /* border-radius: 10px; */
+  background-color: #ffffff; /* Set your desired background color */
+}
+
+.login-box h2 {
+  margin: 0 0 16px;
+  padding: 0;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.user-box1 {
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.user-box1 input {
+  /* padding: 10px 0; */
+  /* font-size: 16px;
+  margin-bottom: 30px; */
+}
+
+.user-box1 label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  color: #000000; /* Set your desired text color */
+  pointer-events: none;
+  transition: .5s;
+}
+
+.user-box1 input:focus ~ label,
+.user-box1 input:valid ~ label {
+  /* top: -20px; */
+  left: 0;
+  color: #03c4f4;
+  /* font-size: 12px; */
+}
+
+.user-box2 {
+  margin-bottom: 30px;
+  
+}
+
+.user-box2 input {
+  /* padding: 10px 0; */
+  /* font-size: 16px;
+  margin-bottom: 30px; */
+}
+
+.user-box2 label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  color: #000000; /* Set your desired text color */
+  pointer-events: none;
+  transition: .5s;
+}
+
+.user-box2 input:focus ~ label,
+.user-box2 input:valid ~ label {
+  /* top: -20px; */
+  left: 0;
+  color: #03c4f4;
+  /* font-size: 12px; */
+}
+form button {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #ffffff; 
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 30px;
+  letter-spacing: 4px;
+  background-color: #000000bc;
+  border-radius: 40px;
+  outline: auto;
+}
+
+form button:hover {
+  background: #00000089;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  /* transition: .5s; */
+  margin-top: 30px;
+  letter-spacing: 4px;
+  border-radius: 40px;
+  padding: 15px 30px;
+
+}
+
+.app-description {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  /* padding: -10px; */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.314);
+  box-sizing: border-box;
+}
